@@ -8,8 +8,8 @@ int main(){
     while(t--){
     string x; getline(cin,x);
     map<string,int>mp;
-    stringstream ss(x);
-    string tmp;
+    stringstream ss(x);  //loai bo dau cach
+    string tmp;          //vd: ngon ngu lap trinh trinh -->>ngon :1 ngu:1 lap:1 trinh:2
     while(ss>>tmp){
     mp[tmp]++;
     }
