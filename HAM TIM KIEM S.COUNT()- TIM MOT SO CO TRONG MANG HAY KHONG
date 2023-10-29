@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+#include <map>
+#include <set>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    set<int>s;
+    int a[n];
+    for (int i=0;i<n;i++){
+        cin>>a[i];
+    }
+    for (int i=0;i<n;i++){
+        s.insert(a[i]);
+    }
+    cout<<"Nhap so lan kiem tra:";
+    int x;cin>>x; 
+    while(x--){              //su dung while(x--) de nhap so lan kiem tra
+    int a; cin>>a;
+    if (s.count(a)==1){     //tim  kiem so do co trong mang hay khong sd s.count()
+        cout<<"YES"<<endl;
+    }
+    else cout<<"NO"<<endl;
+}
+}
+
+ 
