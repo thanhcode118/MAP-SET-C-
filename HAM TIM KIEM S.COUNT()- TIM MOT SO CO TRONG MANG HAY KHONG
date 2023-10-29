@@ -24,4 +24,28 @@ int main(){
 }
 }
 
+//DUNG MAP
+
+#include <bits/stdc++.h>
+#include <map>
+#include <set>
+using namespace std;
+int main(){
+    int n; cin>>n;
+    map<int,int>mp;
+    for (int i=0;i<n;i++){
+        int c; cin>>c;
+        mp[c];
+    }
+    cout<<"Nhap so lan kiem tra : ";
+    int x; cin>>x;
+    while (x--){
+        int a; cin>>a;
+        if (mp.count(a)==1){
+            cout<<"YES"<<endl;
+        }
+        else cout<<"NO"<<endl;
+    }
+}
+
  
